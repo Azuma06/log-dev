@@ -1,0 +1,31 @@
+/*
+igual a =              ==
+maior que >            
+menor que <
+maior ou igual >=
+menor ou igual <=
+diferente              !=      <>
+*/
+
+a=3
+a+=1 a=a+1
+a-=3 a=a-1
+
+
+a++
+++a
+
+
+scanf('%d', &a) /*coloca essa informação no a*/
+int a;  /*numero inteiro*/
+float a; /*numero com decimais*/
+
+int main()
+{
+    int a;
+    float b:
+    acanf('%d',&a);
+    acanf('%f', &b);
+    printf('foram 1;dos %d e %f',a,b);
+    return0;
+}
