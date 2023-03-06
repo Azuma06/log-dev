@@ -5,6 +5,7 @@ menor que <
 maior ou igual >=
 menor ou igual <=
 diferente              !=      <>
+resto (de divisão?)    %
 
 a=3
 a+=1 a=a+1
