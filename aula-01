@@ -6,6 +6,13 @@ maior ou igual >=
 menor ou igual <=
 diferente              !=      <>
 resto (de divisão?)    %
+||         ou (bgl logico)
+&&         e  (bgl logico)
+!          negação
+sqrt       raiz quadrada
+sqr        elevado quadrado
+x=pow(n,5) numero elevado potencia (5)
+
 
 a=3
 a+=1 a=a+1
