@@ -18,7 +18,7 @@ p{
 
 .navbar{
     width: 100%;
-    height: 50px;
+    height: auto;
     background-color: crimson;
     float: left;
 }
@@ -30,9 +30,49 @@ p{
     float: left;
 }
 
+.linha-1{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    float: left;
+}
+
+.linha-2{
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+    float: left;
+}
+
+
+.coluna-1{
+    width: 50%;
+    height: 400px;
+    background-color: azure;
+    float:left;
+}
+
+.coluna-2{
+    width: 50%;
+    height: 400px;
+    background-color: grey;
+}
+
+.coluna-3{
+    width: 50%;
+    height: 400px;
+    background-color: greenyellow;
+}
+
 .footer{
     width: 100%;
     height: 50px;
     background-color: crimson;
     float: left;
 }
+
+@media screen and (max-width: 600px) {
+    .container, .header, .navbar, .content, .footer {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
