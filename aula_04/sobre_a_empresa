@@ -17,8 +17,8 @@
         </div>
         <div class="navbar">
             <div class="topnav" id="myTopnav">
-                <a href="index.html" class="active">Home</a>
-                <a href="sobre_a_empresa.html">Sobre a Empresa</a>
+                <a href="index.html">Home</a>
+                <a href="sobre_a_empresa.html" class="active">Sobre a Empresa</a>
                 <a href="produtos.html">Produtos</a>
                 <a href="localizacao.html">Localização</a>
                 <a href="fale_conosco.html">Fale Conosco</a>
