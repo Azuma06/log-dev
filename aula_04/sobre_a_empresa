@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/topnav.js"></script>
+    <title>Azuma</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <center><a href="index.html"><img src="img/Azuma (300 × 200 px).png"></a></center>
+        </div>
+        <div class="navbar">
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="sobre_a_empresa.html">Sobre a Empresa</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="localizacao.html">Localização</a>
+                <a href="fale_conosco.html">Fale Conosco</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+        </div>
+        <div class="content">
+            <div class="linha-1">
+                <div class="coluna-1">
+                    <center><img src="img/1.png"></center>
+                </div>
+                <div class="coluna-2">
+                    <center><img src="img/2.png"></center>
+                </div>
+            </div>
+            <div class="linha-2">
+                <div class="coluna-3">
+                    <center><img src="img/3.png"></center>
+                </div>
+                <div class="coluna-4">
+                    <center><img src="img/4.png"></center>
+                </div>
+        </div>
+        <div class="footer">
+            <center><p>Azuma Sistemas 2023 - Todos os Direitos Reservados</p></center>
+        </div>
+    </div>
+</body>
+</html>
+
