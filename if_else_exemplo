@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b; 
+    printf("Digite um valor inteiro:");
+    scanf("%d", &a); 
+    printf("Digite mais um número inteiro: ");
+    scanf("%d", &b); 
+    
+    if (a > b)
+    {
+        printf("%d é maior", a);
+      }
+    if(b > a)
+    {
+        printf("%d é maior", b);
+    }
+    if(b==a)
+    {
+        printf("são iguais");
+    }
+    return 0;
+}
